@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.container1{
+    height: 265vh;
+}
+.container2{
+    height: 60vh;
+    background-image: url("https://www.columbusnavigator.com/wp-content/uploads/2018/04/food-1050813_1920-1400x1050.jpg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.container2 ul{
+    display: flex;
+    justify-content:center ;
+    float: right;
+    margin-right: 10em;
+}
+.container2 ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 1em 1em ;
+    font-size: 1.5em;
+    color:white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+.container2 ul li a{
+    text-decoration: none;
+}
+.container2 ul li:hover{
+    font-weight: bolder;
+    cursor:pointer;
+}
+.container2 h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+   font-weight: bold;
+    padding-top: 1.5em ;
+    font-size: 4.8em;
+    padding-left: 7.4em;
+    font-family: 'Roboto', sans-serif;
+}
+.container2 h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    padding-top:0.5em;
+    font-size: 2em;
+    font-family: 'Lato', sans-serif;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.search input{
+    width: 30vw;
+    height: 40px;
+    border: 5px solid whitesmoke;
+    border-radius: 1em;
+    margin: 3em ;
+    padding:0px 1px ;
+    margin-left: 2.4em;
+    color:black;
+    font-weight: 900;
+    font-size: 1.3em;
+    font-family: 'Lato', sans-serif;
+}
+.search button{
+    font-weight:bold;
+    font-family: 'Lato', sans-serif;
+    padding-left: 0em;
+    margin-left: 0em;
+    cursor: pointer;
+}
+.btn{
+    width: 6vw;
+    height:30px;
+}
+.box{
+    height: 30vh;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+.box1{
+    display: grid;
+    margin-top: 27px;
+    transition: background 0.5s, transform 0.5s;
+}
+.box2{
+    display: grid;
+    margin-top:27px ;
+    transition: background 0.5s, transform 0.5s;
+}
+.box1 img {
+    width: 40vw;
+    height: 26vh;
+    border-radius: 15px 15px 0px 0px ;
+    display: block;
+    margin-left:120px ;
+    transition: transform 0.5s;
+} 
+.box2 img {
+    width: 40vw;
+    height: 25.9vh;
+    border-radius: 15px 15px 0px 0px;
+    display: block;
+    transition: transform 0.5s;
+} 
+.tagx{
+    height: 15vh;
+    border:4px solid whitesmoke;
+    border-radius: 1em;
+    display: flex;
+  align-items: flex-start;
+  margin-left:7.2em;
+  margin-right: 0.2em;
+  
+  cursor: pointer;
+}
+.tagy{
+    height: 15vh;
+    cursor: pointer;
+    border:4px solid whitesmoke;
+    border-radius: 1em;
+    display: flex;
+  align-items: flex-start;
+  margin-right:7.7em;
+}
+.tag1{
+    display: flex;
+    float: left;
+    font-size: 1.5em;
+    color:black;
+    padding-top: 0.6em;
+    padding-left: 1em;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+.tag2{
+    display: flex;
+   padding-top: 4em;
+   float:left;
+   padding-right: 3em;
+    font-size: 1em;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+.box1:hover{
+    transform: translateY(-10px);
+}
+.box2:hover{
+    transform: translateY(-10px);
+}
+.collection{
+height: 88vh;
+margin-top:12em;
+}
+.collection1{
+    margin-left:2.5em ;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+    font-weight: bolder;
+}
+.collection p{
+    margin-left:5.6em ;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+.lists{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap:0.1em;
+    margin-top:1.9em;
+    color: white;
+}
+.list1{
+    margin-left:7.5em ;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap:0.1em;
+    background-image: url("https://i.pinimg.com/originals/b1/06/24/b10624f8631716b35278f27aecb89d2a.jpg") ;
+  background-repeat:no-repeat;
+  background-size:45vw;
+  width: 25vw;
+  height: 45vw;
+  border-radius: 1em;
+  transition: background 0.5s, transform 0.5s;
+}
+.list2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap:5em;
+    background-image: url("https://i0.wp.com/post.healthline.com/wp-content/uploads/2019/09/Salad_Overhead_1296x728-header-1-1296x728.jpg?w=1155&h=1528") ;
+    background-repeat: no-repeat;
+    background-size: 54vw;
+    width: 23vw;
+    border-radius: 1em;
+    margin-left: 4.9em;
+    transition: background 0.5s, transform 0.5s;
+}
+/* .list3{
+  
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap:5em;
+    background-image: url("https://www.adotrip.com/public/images/city/5e4a327d911be-Patna%20Place%20to%20visit.jpg") ;
+    background-repeat: no-repeat;
+    background-size:contain;
+    width: 20vw;
+    height: 55vh;
+    border-radius: 1em;
+    margin-left:2.6em;
+} */
+.list4{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap:5em;
+    background-image: url("https://th.bing.com/th/id/R.ebf00c0df8d033eb4559c63ea9ef9e81?rik=VvS6gp3VYXWDLQ&riu=http%3a%2f%2frecipes.timesofindia.com%2fphoto%2f53099699.cms&ehk=6a4KDqN4ldnVGme4C5ujN3oarGD%2boXp27I8zyCyux%2b4%3d&risl=&pid=ImgRaw&r=0") ;
+    background-repeat: no-repeat;
+    background-size:30vw ;
+    width: 23vw;
+    height: 90vh;
+    border-radius: 1em;
+    margin-left:0.1em;
+    transition: background 0.10s, transform 0.10s;
+}
+.para{
+    margin-top:16em;
+    display:inline-block;
+    text-align:center;
+    margin-right:5.2em;
+}
+.list1:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+    
+}
+.list2:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+.list4:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+.exploer{
+    height: 70vh;
+    margin-top: 2em;
+    margin-bottom: 6.8em;
+}
+.exp{
+    margin-left:2.5em ;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+    font-weight: bolder;
+}
+.row1{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 1em;
+    margin-top: 0.6em;
+}
+.row1 p{
+    margin-left:3.8em ;
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    font-size:2em;
+    height:12vh;
+    padding-left: 1em;
+    border: 2px solid gray;
+   border-radius: 0.3em;
+   background-color:whitesmoke ;
+   cursor: pointer;
+}
+.foot{
+    margin-top: 7em;
+    height: 17vh;
+    background-color:gray;
+}
+.foot h1 {
+    margin-left:1.8em ;
+    font-family: 'Roboto', sans-serif;
+    font-size: 4em;
+    font-weight: bolder;
+}
+.foot p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 1em;
+}
